@@ -1,4 +1,4 @@
-<img src="https://f1076729-27a2-4e8b-8731-4429e9916a2d.ws-eu01.gitpod.io/files/download/?id=bed6491a-183b-4993-b3af-3fd65f557158" style="margin: 0;">
+<img src="https://f1076729-27a2-4e8b-8731-4429e9916a2d.ws-eu01.gitpod.io/files/download/?id=f4adcbff-d08a-4c59-8d07-4114db8106a9">
 
 # Papilion AB Creative Consultants
 
@@ -21,7 +21,7 @@ The idea driving the website operations is to engage and entertain you through t
 
 ## Features
 
-- Hover over elements: Letters and images animate as they are hovered over. Each object 'blinks' for 1.25 passing seconds, giving the website a really transition that you could play with for hours
+- Hover over blocks: Letters and images animate as they are hovered over. Each object 'blinks' for 1.25 passing seconds, giving the website a really transition that you could play with for hours
 
 - Clickable images: These clicks lead to a sign-up form or relevant documents or insights. The idea behind this was to engage more young people (and adults if they choose) in understanding the process behind the production of our daily-use electronic appliances or applications that they themselves engage with. On mobile the 'click would be responsive to touch input and pending on how many times clicked it would buzz through a 20second, 40 second or 60second old classic, like 'The A Team or Star Trek, etc.
 

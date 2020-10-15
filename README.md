@@ -1,43 +1,38 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome RTiculus,
+# Papilion AB Creative Consultants
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Papilion AB believe the world needs more companies with a positive purpose. Companies that seek a broader definition of success; aligning financial achievements with how they nurture and support their teams, strengthen local communities and do their best for the environment. 
 
-## Gitpod Reminders
+We are an operational team of experienced Creative Consultant based in Stockholm, Malmö and Bristol UK. We use our creative design, artistic talents and marketing expertise to deliver beautiful, exciting and interactive client-focused services.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Everything we do begins with discovery and understanding, which gives our creativity meaning and our work a permanent relevance.
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+The idea driving the website operations is to engage and entertain you through the process, subconsciously educating yourself. With lots colorful flat images that invite the client to be inquisitive about the kind of people behind the projects and business. The nature of our modus operandi is CREATIVITY NATURALLY. The more natural and accessible the better...
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- As a user, I want to be able to book a consultancy online, so that it fits around my schedules.
 
-A blue button should appear to click: *Make Public*,
+- As a user, I want know when the next time you are in our area , I have lots of teacher friends who would be so interested in this.
 
-Another blue button should appear to click: *Open Browser*.
+- Joe User here, I would like to be able to choose my coach, so that I know I am getting the same level of service, consistently.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Features
 
-## Updates Since The Instructional Video
+- Hover over elements: Letters and images animate as they are hovered over. Each object 'blinks' for 1.25 passing seconds, giving the website a really transition that you could play with for hours
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+- Clickable images: These clicks lead to a sign-up form or relevant documents or insights. The idea behind this was to engage more young people (and adults if they choose) in understanding the process behind the production of our daily-use electronic appliances or applications that they themselves engage with. On mobile the 'click would be responsive to touch input and pending on how many times clicked it would buzz through a 20second, 40 second or 60second old classic, like 'The A Team or Star Trek, etc.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Interactive toggles: When on a computer or tablet the same gallery can be accessed but without the immediate reverb you get on a mobile phone. Not to worry, the game is still on because instead it would be visual and possibly audio too.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- A light game: It would give you an idea of the power of electricity in our lives and advise on how to save power through its fun onboard automatic brightness detector.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Fun outdoor activities and events: Follow our links in the built-in app. Via the messaging facility we will be able to remind you of your upcoming appointments with us.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Existing Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Feature 1 - Hover over: At the moment this is working, and the animation is smooth.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- JavaScript animated menubar: Really fun animated hamburger-menu that almost raises its hands when you click it

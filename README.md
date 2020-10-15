@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="https://f1076729-27a2-4e8b-8731-4429e9916a2d.ws-eu01.gitpod.io/files/download/?id=bed6491a-183b-4993-b3af-3fd65f557158" style="margin: 0;">
 
 # Papilion AB Creative Consultants
 

@@ -78,6 +78,39 @@ html {
     height: 60px; 
     width: 100px;
 }
+
+footer {
+    position: relative;
+    width: 100%
+}
+.no-padding{
+    padding: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.small-title {
+    font-weight: 300;
+}
+.big-title {
+    font-weight: 600;
+
+}
+.social-links {
+    padding: 2px;
+    margin-top: 30px;
+}
+
+.social-links i {
+    font-size: 20px;
+}
+
+.social-links-block {
+    text-align: center;
+}
+
+
+
 /*--------------lead Section--------------*/
 .lead {
     display: flex;
@@ -215,6 +248,95 @@ font-size: 40px;
     width: 100px;
     
 }
+
+/*-----Bookings Section---*/
+* {
+    box-sizing: border-box;
+}
+
+body .booking-service {
+    background-color: #a2fa9a;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.booking-container {
+    margin: 10px 0;   
+}
+
+.booking-container select {
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.example {
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: rgb(2, 0, 0);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.example li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.example li small {
+    margin-left: 2px;
+}
+
+.example .space:not(.booked):hover {
+    cursor: default;
+    transform: scale(1);
+}
+
+.space {
+    background-color: #444221;
+    height: 18px;
+    width: 18px;
+    margin: 5px;
+}
+
+.space.held {
+    background-color: #6feaf6;
+}
+
+.space.booked {
+    background-color: #C02425;
+}
+
+.space:not(.booked):hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.bookable-times {
+    display: flex;
+}
+
+/*------text Section----*/
+
+
+
+/*---testimonials section-----*/
 
 .slide-container {
     padding: 100px;
@@ -354,17 +476,89 @@ font-size: 40px;
         margin: 0;
 }
 
+/*---------------------------------------------------------- Contact us section */
 
-
-
-
-
-.parallax {
-
-  background-image: "./images/viewforward.jpg";
-  min-height: 1000px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.address-block {
+    text-align: center;
+    margin: 50px auto;
+    line-height: 35px;
 }
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 300px;
+    width: 300px;
+}
+
+/*-------------------------------- Message form */
+.message-form {
+    margin: 50px 0;
+}
+.message-form h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+.form-control {
+    width: 50%;
+    margin: 15px auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 300;
+    color: #aaa;
+}
+.form-group {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.btn-secondary {
+    margin-top: 20px;
+    background-color: #ff9d00;
+    border-color: #ff9d00;
+    width: 30%;
+}
+
+.gallery-title{
+    margin: 50px 0;
+    text-align: center;
+    }
+    .gallery-title h2{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size:28px;
+    color: #000000;
+    }
+    .gallery-img-left {
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    }
+    
+    .gallery-img-right{
+    float: right;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    }
+
+    /*---------------------------------------------------------- Modal */
+    .form-group, .form-control, .modal-title{
+    font-family:'Rajdhani', sans-serif;
+    }
+    
+    .modal-title {
+    margin-left: auto;
+    padding-left: 33px;
+    }

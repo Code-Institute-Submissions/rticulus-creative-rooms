@@ -41,6 +41,7 @@
             <div class="left-blocks">
                 <div class="logo" href="#team">
                     <img src="./assets/images/papilogo.png" alt="">
+                    <link href="calendar.html">
                     
                 </div>
 
@@ -54,8 +55,8 @@
 
                 <div class="right-blocks">
                     <ul class="menu-list">
-                        <li><a class="link" href="#team">Office</a></li>
-                        <li><a class="link" href="#Products">Products</a></li>
+                        <li><a class="link" href="#home">Office</a></li>
+                        <li><a class="link" href="#produce">Products</a></li>
                         <li><a class="link" href="#team">Team</a></li>
                         <li><a class="link" href="#connect">Connect</a></li>
                         <li><a class="link" href="calendar.html">Book Us</a></li>
@@ -66,7 +67,7 @@
 </header>
 
 <!-- Leader Block -->
-     <section class="lead" id="office">
+     <section class="lead" id="animate-name">
         <div class="leader-left">
             <div class="leader">
                 <span>C</span>
@@ -94,6 +95,7 @@
         </div>Products
         <div class="leader-right" id ="booking">
             <img src="./assets/images/creative-tools.png" alt="#">
+            <a href="calendar.html"></a>
         </div>
     </section>
 <!--Products List Area -->
@@ -102,25 +104,15 @@
         <h1>Book a Consultation</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
     </div>
-    <div class="produce-groups">
-    <div class="products"><img src="./assets/images/groupTogether.png" alt="chat"></div>    
-    <div class="products"><img src="./assets/images/canvas.png" alt="arts"></div>
-    <div class="products"><img src="./assets/images/techhome.png" alt="tech"></div>
-    <div class="products"><img src="./assets/images/family.png" alt="families"></div>
-    <div class="products"><img src="./assets/images/protest.png" alt="empowerment"></div>
+    <div class="produce-groups" id="produce">
+    <div class="products"><img src="./assets/images/groupTogether.png" alt="chat">Consultation</div>    
+    <div class="products"><img src="./assets/images/canvas.png" alt="arts">Creative Arts</div>
+    <div class="products"><img src="./assets/images/techhome.png" alt="tech">Tech Minds</div>
+    <div class="products"><img src="./assets/images/family.png" alt="families">Community Engagement</div>
+    <div class="products"><img src="./assets/images/protest.png" alt="empowerment">Your Rights</div>
     </div>
 </section>
 
-<!-- Service Section -->
-<section>
-    
-    <div></div>
-
-    <div></div>
-    
-    <div></div>
-
-</section>
 <!--who are we section -->
     <section class="about" id="team">
         <div>
@@ -142,7 +134,51 @@
             <h1>Reach Out To Us</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem. lore</p>
         </div>
+          <div class="row no-gutters">
+            <div class="col-sm-12 col-md-12 col-lg-6 address-block">
+                <p><strong>HTK Sverige</strong><br>
+                    c/o <strong>Papilion AB</strong><br>
+                    <strong>Kulturhuset Stadsteatern Vällingby</strong><br>
+                    Vällingby Torg 43<br>Vällingby</p>
+                <p>info@htksverige.com</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 map-block">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.2105413824486!2d17.869029051561!3d59.362824981580665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9fd3afc68b3d%3A0xa5edabbbc356edb7!2sKulturhuset%20Stadsteatern%20V%C3%A4llingby!5e0!3m2!1sen!2sse!4v1595682821391!5m2!1sen!2sse" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters bg-color-container my-container">
+            <div class="col-12 message-form">
+                <h2>Any questions?</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="emailInput">Name</label>
+                        <input type="text" class="form-control" id="textInput" placeholder="Enter your full name here." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email address</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subjectInput">Subject</label>
+                        <input type="text" class="form-control" id="subjectInput" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea class="form-control" id="messageInput" rows="5" placeholder="Start typing here..." required></textarea>
+                    </div>
+                    <div class="form-group"><button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
     </section>
+
+    
 
 
 <!-- Members Form -->
@@ -195,15 +231,15 @@
             <div class="col-md-4 footer-links">
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a> </div>
             <div class="col-md-4 list-inline footer-links">
-                <a href="https://youtu.be/J0WSZuVI3GM" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-youtube-play"></i></a>
-                <a href="https://www.linkedin.com/" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-linkedin-square"></i> </a>
-                <a href="https://www.facebook.com/hiphopteaterkollektivet" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-facebook-square"></i> </a>
-                <a href="https://www.instagram.com/hiphopteaterkollektivet/" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-instagram"></i> </a>
+                <a href="https://youtu.be/J0WSZuVI3GM" class="footer-social-links list-inline-item" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://www.linkedin.com/" class="footer-social-links list-inline-item" target="_blank"> <i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/hiphopteaterkollektivet" class="footer-social-links list-inline-item" target="_blank"> <i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/hiphopteaterkollektivet/" class="footer-social-links list-inline-item" target="_blank"> <i class="fab fa-instagram-square"></i></a>
             </div>
         </div>
     </footer>
 
-    <script src="./js/style.js"></script>
+    <script src="style.js"></script>
     <script src="https://kit.fontawesome.com/ceee125887.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

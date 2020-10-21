@@ -4,7 +4,7 @@
 
 Papilion AB believe the world needs more companies with a positive purpose. Companies that seek a broader definition of success; aligning financial achievements with how they nurture and support their teams, strengthen local communities and do their best for the environment. 
 
-We are an operational team of experienced Creative Consultant based in Stockholm, Malmö and Bristol UK. We use our creative design, artistic talents and marketing expertise to deliver beautiful, exciting and interactive client-focused services.
+We are an operational team of experienced Creative Consultant based in Stockholm, Malmö and Bristol UK. We use our creative design, artistic talents and marketing expertise to deliver beautiful, exciting and interactive client-focused products.
 
 Everything we do begins with discovery and understanding, which gives our creativity meaning and our work a permanent relevance.
 

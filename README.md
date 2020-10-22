@@ -1,4 +1,4 @@
-<img src="https://f1076729-27a2-4e8b-8731-4429e9916a2d.ws-eu01.gitpod.io/files/download/?id=f4adcbff-d08a-4c59-8d07-4114db8106a9">
+<img src="./assets/images/papilogotrans50.png">
 
 # Papilion AB Creative Consultants
 

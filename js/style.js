@@ -1,6 +1,7 @@
 const subHeader = document.querySelector(".lower-header");
 const collapsibleToggle = document.querySelector(".hamburger-menu");
 
+/*------ Hamburger menu block-----*/
 collapsibleToggle.addEventListener ('click', (e) => {
    collapsibleToggle.classList.toggle('active');
     subHeader.classList.toggle('active');
@@ -20,7 +21,7 @@ window.addEventListener('scroll', () => {
     //console.log();
 });
 
-/*--------javascript code for slider from www.webscript.info courtesy of Rizwan Khan---*/
+/*--------Code for slider from www.webscript.info courtesy of Rizwan Khan---*/
 carousel();
 function carousel() {
 let i;
@@ -34,3 +35,40 @@ if (slideIndex > x.length) {slideIndex = 1}
   setTimeout(carousel, 2000); 
 };
 
+/*--------------------------------------------------------*/
+
+const container = document.querySelector (".container");
+const space = document.querySelectorAll (".bookable-times .space:not(.booked)");
+const count = document.getElementById ("cost");
+const total = document.getElementById ("total");
+const spaceHeld = document.getElementById ("product-items");
+
+let productCost = +spaceHeld.value;
+
+// Updated Count
+function updateHoldCount() {
+    const spacesOnHold = document.querySelectorAll (
+        ".bookable-times .space.held");
+    
+    const spacesOnHoldCount = spacesOnHold.length;
+
+    count.innerText = spacesOnHoldCount;
+    total.innerText = spacesOnHoldCount * productCost;
+}
+
+// space held listener
+spaceHeld.addEventListener("change", e => {
+    productCost = +e.target.value;
+    updateHoldCount();
+});
+
+// space click listener
+container.addEventListener ("click", e => {
+    if (e.target.classList.contains ("space") &&
+        !e.target.classList.contains ("booked")
+    ) {
+        +e.target.classList.toggle ("held"); 
+        
+        updateHoldCount();
+    }
+});

@@ -1,4 +1,4 @@
-*, p, h1, h2, h3, h4, h5, h6, ul {
+ p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
@@ -75,8 +75,8 @@ html {
 }
 
 .header .lower-header .left-blocks .logo img {
-    height: 60px; 
-    width: 100px;
+    height: 80px; 
+    width: 120px;
 }
 
 footer {
@@ -115,7 +115,7 @@ footer {
 .lead {
     display: flex;
     box-sizing: border-box;
-    padding: 0 100px;
+    padding: 0 50px;
     align-items: center;
 }
  
@@ -127,11 +127,11 @@ footer {
 .lead .leader-right img {
     width: 500px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .lead .leader-right img:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.00, 1.10);
 }
 
 .lead .leader-left .leader span {
@@ -240,21 +240,19 @@ font-size: 40px;
 
 .produce-groups .products {
     width: 200px;
-    margin: 10px 20px;
-    
+    margin: 10px 20px;  
 }
 
 .produce-groups .products img {
     width: 100px;
-    
-}
+    }
 
 /*-----Bookings Section---*/
 * {
     box-sizing: border-box;
 }
 
-body .booking-service {
+.oversee .booking-service {
     background-color: #a2fa9a;
     color: #000;
     display: flex;
@@ -266,7 +264,8 @@ body .booking-service {
 }
 
 .booking-container {
-    margin: 10px 0;   
+    margin: 20px 0;
+    
 }
 
 .booking-container select {
@@ -274,7 +273,7 @@ body .booking-service {
     border: 0;
     border-radius: 5px;
     font-size: 14px;
-    margin-left: 10px;
+    margin: 10px;
     padding: 5px 15px 5px 15px;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -282,11 +281,10 @@ body .booking-service {
 }
 
 .example {
-    margin: 10px 0;
     background: rgba(0, 0, 0, 0.4);
-    padding: 10px 5px;
+    padding: 5px 5px;
     border-radius: 5px;
-    color: rgb(2, 0, 0);
+    color: #fff;
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -342,7 +340,6 @@ body .booking-service {
     padding: 100px;
     background: #eee123;
     text-align: center;
-
 }
 
 .mySlides .fa-quote-left {
@@ -353,9 +350,6 @@ body .booking-service {
     font-size: 15px;
     font-weight: 800;
 }
-
-
-
 
 /*-------media query--------*/
 @media screen and (max-width: 1000px) {
@@ -429,7 +423,6 @@ body .booking-service {
         display: block;
         text-align: center;
         margin: 10px 0;
-
     }
 
     .contact{
@@ -465,7 +458,7 @@ body .booking-service {
     }
 /*-----------Booking Room -------*/
 
-    body .booking-container {
+    .oversee .booking-container {
         background-image: url();
         color: #fff;
         display: flex;

@@ -1,4 +1,4 @@
- p, h1, h2, h3, h4, h5, h6, ul {
+ *, p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
@@ -395,28 +395,28 @@ font-size: 40px;
     }
 /*--------sub-header--------*/
     
-    .lower-header.active {
-        flex-direction: column;
-        padding: 0;
-    }
+.lower-header.active {
+    flex-direction: column;
+    padding: 0;
+}
 
     .lower-header.active .left-blocks {
         background: #C02425;
         position: fixed;
         height: 50px;
         top: 0;
-        padding: 0 100px;
+        padding: 0;
         box-sizing: border-box;
     }
 
 
     .lower-header.active .right-blocks {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    background: #C02425;
-    width: 100%;
-    height: calc(100% - 50px);
+        display: block;
+        position: fixed;
+        bottom: 0;
+        background: #C02425;
+        width: 100%;
+        height: calc(100% - 50px);
     }
 
     .lower-header.active .right-blocks .menu-list li {
@@ -432,11 +432,11 @@ font-size: 40px;
 
 /*---------footer section-------*/
 
-    .footer .bottom-list {
-        display: inline-flex;
-        list-style: none;
-        padding: 0 10px;
-    }
+.footer .bottom-list {
+    display: inline-flex;
+    list-style: none;
+    padding: 0 10px;
+}
 
     .footer-links {
         min-height: 70px;
@@ -458,15 +458,15 @@ font-size: 40px;
     }
 /*-----------Booking Room -------*/
 
-    .oversee .booking-container {
-        background-image: url();
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
+.oversee .booking-container {
+    background-image: url();
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 /*---------------------------------------------------------- Contact us section */
@@ -527,31 +527,31 @@ font-size: 40px;
     margin: 50px 0;
     text-align: center;
     }
-    .gallery-title h2{
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 400;
-    font-size:28px;
-    color: #000000;
+    .gallery-title h2 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 400;
+        font-size:28px;
+        color: #000000;
     }
     .gallery-img-left {
-    margin-left: 100px;
-    margin-top: 75px;
-    margin-bottom: 50px;
+        margin-left: 100px;
+        margin-top: 75px;
+        margin-bottom: 50px;
     }
     
-    .gallery-img-right{
-    float: right;
-    margin-right: 100px;
-    margin-top: 75px;
-    margin-bottom: 50px;
+    .gallery-img-right {
+        float: right;
+        margin-right: 100px;
+        margin-top: 75px;
+        margin-bottom: 50px;
     }
 
     /*---------------------------------------------------------- Modal */
     .form-group, .form-control, .modal-title{
-    font-family:'Rajdhani', sans-serif;
+        font-family:'Rajdhani', sans-serif;
     }
     
     .modal-title {
-    margin-left: auto;
-    padding-left: 33px;
+        margin-left: auto;
+        padding-left: 33px;
     }

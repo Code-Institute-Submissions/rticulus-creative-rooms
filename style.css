@@ -1,4 +1,4 @@
- *, p, h1, h2, h3, h4, h5, h6, ul {
+*, p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
@@ -119,7 +119,7 @@ footer {
     padding: 0 50px;
     align-items: center;
 }
- 
+
 .lead .leader-right {
     width: 500px;
     
@@ -371,6 +371,13 @@ font-size: 40px;
     .contact .contact-img img {
         width: 100px;
     }
+
+    .media-gallery {
+    min-width: 90%;
+    }
+    .btn-book-now {
+    max-width: 50vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -382,7 +389,16 @@ font-size: 40px;
         display: block;
     }
 
-}
+    
+    .form-control {
+        min-width: 70%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .btn-secondary {
+    min-width: 50%;
+    }
+
     .lower-header .left-blocks {
         display: flex;
         justify-content: space-between;
@@ -394,12 +410,23 @@ font-size: 40px;
         flex-direction: column;
         padding: 100px; 
     }
+    
+    .form-control {
+        min-width: 70%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    
+}
+
+
+
 /*--------sub-header--------*/
     
-.lower-header.active {
+    .lower-header.active {
     flex-direction: column;
     padding: 0;
-}
+    }
 
     .lower-header.active .left-blocks {
         background: #C02425;
@@ -431,13 +458,17 @@ font-size: 40px;
     }
 
 
-/*---------footer section-------*/
+/*---------footer and social section-------*/
 
+footer {
+    position: relative;
+    width: 100%
+}
 .footer .bottom-list {
     display: inline-flex;
     list-style: none;
     padding: 0 10px;
-}
+    }
 
     .footer-links {
         min-height: 70px;
@@ -457,10 +488,42 @@ font-size: 40px;
         padding-left: 5px;
         font-size: 24px;
     }
+.social-links {
+    padding: 2px;
+    margin-top: 30px;
+    }
+
+.social-links i {
+    font-size: 20px;
+    }
+
+.social-links-block {
+    text-align: center;
+    }
+
+.fa {
+    font-size: 125%;
+  }
+  
+  .fa-youtube-play {
+    color: red;
+  }
+  
+  .fa-linkedin-square {
+    color: #283e4a;
+  }
+  
+  .fa-facebook-square {
+    color: #4267b2;
+  }
+  
+  .fa-instagram {
+    color: #9f36b7;
+  }
 /*-----------Booking Room -------*/
 
 .oversee .booking-container {
-    background-image: url();
+    background-color: #441177;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -468,7 +531,7 @@ font-size: 40px;
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
+    }
 
 /*---------------------------------------------------------- Contact us section */
 
@@ -476,7 +539,7 @@ font-size: 40px;
     text-align: center;
     margin: 50px auto;
     line-height: 35px;
-}
+    }
 
 .mapouter {
     position: relative;
@@ -484,75 +547,57 @@ font-size: 40px;
     height: 300px;
     width: 300px;
     margin: 50px auto;
-}
+    }
 
 .gmap_canvas {
     overflow: hidden;
     background: none!important;
     height: 300px;
     width: 300px;
-}
+    }
 
 /*-------------------------------- Message form */
 .message-form {
     margin: 50px 0;
-}
+    }
 .message-form h2 {
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
     color: #000;
-}
+    }
 .form-control {
     width: 50%;
     margin: 15px auto;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 300;
     color: #aaa;
-}
+    }
 .form-group {
     text-align: center;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 400;
     color: #000;
-}
+    }
+
+.btn-book-now {
+    font-weight: 500;
+    font-size: 20px;
+    position: center;
+    max-width: 33vw;
+    background-color: rgb(30, 173, 1);
+    margin: 50px auto;
+    color: #fff;
+    }
 .btn-secondary {
     margin-top: 20px;
     background-color: #ff9d00;
     border-color: #ff9d00;
     width: 30%;
-}
+    }
+/*---------------------------------------------------------- Modal */
 
-.gallery-title{
-    margin: 50px 0;
-    text-align: center;
-    }
-    .gallery-title h2 {
-        font-family: 'Rajdhani', sans-serif;
-        font-weight: 400;
-        font-size:28px;
-        color: #000000;
-    }
-    .gallery-img-left {
-        margin-left: 100px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-    }
-    
-    .gallery-img-right {
-        float: right;
-        margin-right: 100px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-    }
-
-    /*---------------------------------------------------------- Modal */
-    .form-group, .form-control, .modal-title{
-        font-family:'Rajdhani', sans-serif;
-    }
-    
-    .modal-title {
-        margin-left: auto;
-        padding-left: 33px;
+.modal-title {
+    margin-left: auto;
+    padding-left: 33px;
     }

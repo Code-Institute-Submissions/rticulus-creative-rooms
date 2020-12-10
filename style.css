@@ -44,7 +44,8 @@ html {
     position: fixed;
     width: 100%;
     /*--background: #C02425;--*/
-    background: linear-gradient(184deg, rgba(207,2,2,1) 50%, rgba(214,241,4,0.8113620448179272) 100%);
+    background: rgb(241,49,11);
+    background: linear-gradient(180deg, rgba(241,49,11,1) 0%, rgba(255,235,0,1) 100%);
     height: 100px;
 }
 
@@ -131,17 +132,17 @@ footer {
 }
 
 .lead .leader-right img:hover {
-    transform: scale(1.00, 1.10);
+    transform: scale(1.05, 1.10);
 }
 
 .lead .leader-left .leader span {
     font-size: 6vw;
-    font-weight: 800;
+    font-weight: 600;
     display: inline-block;
-    /*color: #000;*/
+    text-shadow:0 2px #000444;
+    color: rgba(241,49,11,1);
     margin: 0 2px;
-    background: rgb(207,2,2);
-    background: linear-gradient(184deg, rgba(207,2,2,1) 0%, rgba(214,241,4,0.8113620448179272) 100%);
+    /*color: linear-gradient(180deg, rgba(241,49,11,1) 0%, rgba(255,235,0,1)100%;*/
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: fill;

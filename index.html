@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Parisienne&family=Rajdhani:wght@300;400;500;600;700&display=swap" 
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
     
     <title>Creative-Rooms</title>
 
@@ -22,22 +21,33 @@
 <body>
 <header class="header">
 
+<!-------Wavy Header---------------------------------->
 <svg 
   class="wavy-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%" >
+        <lineargradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%" >
             <stop offset="0%" />
             <stop offset="100%" />
-        </linearGradient>
+        </lineargradient>
         <path fill="url(#gradient)" fill-opacity="1"
             d="M0,224L16,213.3C32,203,64,181,96,192C128,203,160,245,192,272C224,299,256,309,288,309.3C320,309,352,299,384,277.3C416,256,448,224,480,197.3C512,171,544,149,576,138.7C608,128,640,128,672,138.7C704,149,736,171,768,160C800,149,832,107,864,106.7C896,107,928,149,960,165.3C992,181,1024,171,1056,160C1088,149,1120,139,1152,160C1184,181,1216,235,1248,218.7C1280,203,1312,117,1344,90.7C1376,64,1408,96,1424,112L1440,128L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z">
         </path>
 </svg>
 
+
+
+    <div class='wavy-block viewBox="0 0 1440 320'>
+        <lineargradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%" >
+            <stop offset="0%" />
+            <stop offset="100%" />
+        </lineargradient>
+    </div>
+
         <div class="lower-header">
             <div class="left-blocks">
-                <div class="logo" href="#team">
+                <div class="logo">
+                <a href="index.html">
                     <img src="./assets/images/papilogo.png" alt="">
-                    <link href="calendar.html">
+                    </a>
                 </div>
 
                 <div class="hamburger-menu">
@@ -48,7 +58,7 @@
 
                 <div class="right-blocks">
                     <ul class="menu-list">
-                        <li><a class="link" href="#home">Office</a></li>
+                        <li><a class="link" href="index.html">Office</a></li>
                         <li><a class="link" href="#produce">Products</a></li>
                         <li><a class="link" href="#team">Team</a></li>
                         <li><a class="link" href="#connect">Connect</a></li>
@@ -60,7 +70,7 @@
 </header>
 
 <!-- Leader Block -->
-     <section class="lead" id="animate-name">
+    <section class="lead" id="animate-name">
         <div class="leader-left">
             <div class="leader">
                 <span>C</span>
@@ -86,25 +96,12 @@
                 officiis. Dolor, totam.</p> 
             
         </div>
+
         <div class="leader-right" id ="booking">
-            <img src="./assets/images/creative-tools.png" alt="#">
-            <a href="calendar.html"></a>
+            <a href="calendar.html"><img src="./assets/images/creative-tools.png" alt="#"></a>
         </div>
     </section>
-<!--Products List Area -->
-     <section class="produce" id="booking-block">
-    <div>
-        <h1>Book a Consultation</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
-    </div>
-    <div class="produce-groups" id="produce">
-    <div class="products"><img src="./assets/images/groupTogether.png" alt="chat">Consultation</div>    
-    <div class="products"><img src="./assets/images/canvas.png" alt="arts">Creative Arts</div>
-    <div class="products"><img src="./assets/images/techhome.png" alt="tech">Tech Minds</div>
-    <div class="products"><img src="./assets/images/family.png" alt="families">Community Engagement</div>
-    <div class="products"><img src="./assets/images/protest.png" alt="empowerment">Your Rights</div>
-    </div>
-</section>
+
 
 <!--who are we section -->
     <section class="about" id="team">
@@ -117,9 +114,27 @@
         </div>
 
     </section>
+
+    <!--Products List Area -->
+<section class="produce" id="booking-block">
+   
+    <div>
+        <h1>Book a Consultation</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
+    </div>
+
+    <div class="produce-groups" id="produce">
+        <div class="products"><img src="./assets/images/groupTogether.png" alt="chat">Consultation</div>    
+        <div class="products"><img src="./assets/images/canvas.png" alt="arts">Creative Arts</div>
+        <div class="products"><img src="./assets/images/techhome.png" alt="tech">Tech Minds</div>
+        <div class="products"><img src="./assets/images/family.png" alt="families">Community Engagement</div>
+    </div>
+
+</section>
+
 <!-- Contact Us section -->
     <section class="contact" id="connect">
-        
+
         <div class="contact-img">
             <img src="./assets/images/contact-us.png" alt="connect" />
         </div>
@@ -143,6 +158,9 @@
                 </div>
             </div>
         </div>
+    </section>
+    
+    <section class="form">
         <div class="row no-gutters bg-color-container my-container">
             <div class="col-12 message-form">
                 <h2>Any questions?</h2>
@@ -173,23 +191,7 @@
 
     
 
-
-<!-- Members Form -->
-    <section>
-    
-       
-    </section>
-
-    <section>
-    
-        <div></div>
-
-        <div></div>
-        
-        <div></div>
-    
-    </section>
-<!-- Slider Testimonials Section -->
+<!-- Slider Testimonials Section -------------------
     <section class="slide-container" id="about">
         <div>
             <div  class="mySlides">
@@ -215,6 +217,8 @@
         </div>
 
     </section>
+
+    ---------------------------------------->
     
     <footer>
         <div class="row no-gutters bg-color-footer">

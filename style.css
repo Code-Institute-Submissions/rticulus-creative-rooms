@@ -4,8 +4,6 @@
 }
 
 body {
-    /*font-family: 'Abel', sans-serif;
-    font-family: 'Parisienne', cursive; */
     font-family: 'Rajdhani', sans-serif; 
     position: relative;
 }
@@ -13,6 +11,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 /*---------------header section----------------------*/
 
 .header {
@@ -25,7 +24,6 @@ html {
     background: rgb(228,86,13);
     background: linear-gradient(180deg, rgba(228,86,13,1) 0%, rgba(255,233,0,1) 100%);
 }
-
 
 .header .wavy-block stop:nth-child(1) {
     stop-color: #C02425;
@@ -83,8 +81,8 @@ html {
     width: 120px;
 }
 
-
 /*--------------lead Section--------------*/
+
 .lead {
     display: flex;
     box-sizing: border-box;
@@ -490,7 +488,7 @@ font-size: 20px;
 text-align: center;
 }
 
-.fa {
+/*.fa {
 font-size: 125%;
 }
 
@@ -508,7 +506,7 @@ font-size: 125%;
 
 .fa-instagram {
     color: #9f36b7;
-}
+}----------*/
 
 /*-----------Booking Room -------*/
 

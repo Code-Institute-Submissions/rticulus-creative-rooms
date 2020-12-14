@@ -4,6 +4,24 @@ let slideIndex = 0;
 const links = document.querySelectorAll(".link");
 
 
+
+/*------ Hamburger menu block-----*/
+collapsibleToggle.addEventListener ('click', (e) => {
+   collapsibleToggle.classList.toggle('active');
+    subHeader.classList.toggle('active');
+});
+
+window.addEventListener('scroll', () => {
+   const scroll = document.documentElement.scrollTop;
+    if(scroll > 0) {
+        document.documentElement.scrollTop;
+        subHeader.classList.add('fixed');
+    }
+    else {
+        subHeader.classList.remove('fixed');
+    }
+    //console.log();
+});
 function removeLinks (){
     for(let i=0; i< links.length; i++){
         links[i].addEventListener('click', () =>{
@@ -12,25 +30,6 @@ function removeLinks (){
         }); 
     }
 }
-/*------ Hamburger menu block-----*/
-collapsibleToggle.addEventListener ('click', (e) => {
-   collapsibleToggle.classList.toggle('active');
-    subHeader.classList.toggle('active');
-});
-
-window.addEventListener('scroll', () => {
-
-   const scroll = document.documentElement.scrollTop;
-
-    if(scroll > 0) {
-        /*document.documentElement.scrollTop;*/
-        subHeader.classList.add('fixed');
-    }
-    else {
-        subHeader.classList.remove('fixed');
-    }
-    //console.log();
-});
 
 /*--------Code for slider from www.webscript.info courtesy of Rizwan Khan---*/
 function carousel() {

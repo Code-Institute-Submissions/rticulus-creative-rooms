@@ -83,39 +83,6 @@ html {
     width: 120px;
 }
 
-footer {
-    position: relative;
-    width: 100%
-}
-
-.no-padding{
-    padding: 0;
-}
-
-.no-margin {
-    margin: 0;
-}
-
-.small-title {
-    font-weight: 300;
-}
-
-.big-title {
-    font-weight: 600;
-}
-
-.social-links {
-    padding: 2px;
-    margin-top: 30px;
-}
-
-.social-links i {
-    font-size: 20px;
-}
-
-.social-links-block {
-    text-align: center;
-}
 
 /*--------------lead Section--------------*/
 .lead {
@@ -373,7 +340,7 @@ font-size: 40px;
 }
 /*-------media query--------*/
 @media screen and (max-width: 1000px) {
-    
+
     .lead .leader-right {
         width: 300px;
     }
@@ -403,10 +370,13 @@ font-size: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    
+
+
     .lower-header .right-blocks {
         display: none;
     }
+    
+    
     .hamburger-menu {
         display: block;
     }
@@ -431,16 +401,10 @@ font-size: 40px;
     .btn-secondary {
     min-width: 50%;
     }
-    
-}
 
-
-
-/*--------sub-header--------*/
-    
     .lower-header.active {
-    flex-direction: column;
-    padding: 0;
+        flex-direction: column;
+        padding: 0;
     }
 
     .lower-header.active .left-blocks {
@@ -473,70 +437,78 @@ font-size: 40px;
         
     }
 
+    
+}
+
+
+
+/*--------sub-header--------*/
+    
+
 
 /*---------footer and social section-------*/
 
-    footer {
-        position: relative;
-        width: 100%
-    }
-    .footer .bottom-list {
-        display: inline-flex;
-        list-style: none;
-        padding: 0 10px;
-    }
+footer {
+    position: relative;
+    width: 100%
+}
+.footer .bottom-list {
+    display: inline-flex;
+    list-style: none;
+    padding: 0 10px;
+}
 
-    .footer-links {
-        min-height: 70px;
-        text-align: center;
-        padding-top: 25px;
-    }
-    
-    .footer a {
-        text-decoration: none;
-        color: #fd7709;
-        font-family: 'Parisienne', cursive;
-        font-weight: 600;
-    }
-    
-    .footer-social-links i {
-        padding-right: 5px;
-        padding-left: 5px;
-        font-size: 24px;
-    }
-
-    .social-links {
-    padding: 2px;
-    margin-top: 30px;
-    }
-
-    .social-links i {
-    font-size: 20px;
-    }
-
-    .social-links-block {
+.footer-links {
+    min-height: 70px;
     text-align: center;
-    }
+    padding-top: 25px;
+}
 
-    .fa {
-    font-size: 125%;
-    }
-    
-    .fa-youtube-play {
-        color: red;
-    }
-    
-    .fa-linkedin-square {
-        color: #283e4a;
-    }
-    
-    .fa-facebook-square {
-        color: #4267b2;
-    }
-    
-    .fa-instagram {
-        color: #9f36b7;
-    }
+.footer a {
+    text-decoration: none;
+    color: #fd7709;
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+}
+
+.footer-social-links i {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 24px;
+}
+
+.social-links {
+padding: 2px;
+margin-top: 30px;
+}
+
+.social-links i {
+font-size: 20px;
+}
+
+.social-links-block {
+text-align: center;
+}
+
+.fa {
+font-size: 125%;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+
+.fa-linkedin-square {
+    color: #283e4a;
+}
+
+.fa-facebook-square {
+    color: #4267b2;
+}
+
+.fa-instagram {
+    color: #9f36b7;
+}
 
 /*-----------Booking Room -------*/
 

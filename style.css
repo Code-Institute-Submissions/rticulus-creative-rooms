@@ -1,4 +1,4 @@
-*, p, h1, h2, h3, h4, h5, h6, ul {
+*, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -208,6 +208,7 @@ footer {
 .contact .contact-img img {
     width: 100px;
 }
+
 /*------Meet Team-------------*/
 
 .about {
@@ -229,8 +230,8 @@ footer {
 /*------Service section-------*/
 
 .produce {
-    display: flexbox;
-    /*flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     padding: 100px;
@@ -238,7 +239,7 @@ footer {
     background: #d4d8d4;
 }
 
-.service h1 {
+.produce h1 {
 font-size: 40px;
 }
 
@@ -250,8 +251,7 @@ font-size: 40px;
 
 .produce-groups .products {
     width: 100px;
-    margin: 10px 20px;
-    justify-content: center;  
+    margin: 10px 20px; 
 }
 
 .produce-groups .products img {
@@ -342,7 +342,6 @@ font-size: 40px;
     display: flex;
 }
 
-/*------text Section----*/
 
 
 
@@ -354,15 +353,24 @@ font-size: 40px;
     text-align: center;
 }
 
-.mySlides .fa-quote-left {
+.slide-container .mySlides .fa-quote-left {
     font-size: 50px;
 }
 
-.mySlides .author {
+.slide-container .mySlides .author {
     font-size: 15px;
     font-weight: 800;
 }
 
+.mySlides .fa-quote-left {
+    font-size: 50px;
+    color: #000444;
+}
+
+.mySlides .author{
+    font-size: 15px;
+    font-weight: 700;
+}
 /*-------media query--------*/
 @media screen and (max-width: 1000px) {
     
@@ -472,15 +480,15 @@ font-size: 40px;
 
 /*---------footer and social section-------*/
 
-footer {
-    position: relative;
-    width: 100%
+    footer {
+        position: relative;
+        width: 100%
     }
     .footer .bottom-list {
         display: inline-flex;
         list-style: none;
         padding: 0 10px;
-        }
+    }
 
     .footer-links {
         min-height: 70px;
@@ -533,8 +541,6 @@ footer {
     .fa-instagram {
         color: #9f36b7;
     }
-
-}
 
 /*-----------Booking Room -------*/
 

@@ -1,7 +1,17 @@
 const subHeader = document.querySelector(".lower-header");
 const collapsibleToggle = document.querySelector(".hamburger-menu");
 let slideIndex = 0;
+const links = document.querySelectorAll(".link");
 
+
+function removeLinks (){
+    for(let i=0; i< links.length; i++){
+        links[i].addEventListener('click', () =>{
+            subHeader.classList.toggle('active');
+            collapsibleToggle.classList.toggle('active');
+        }); 
+    }
+}
 /*------ Hamburger menu block-----*/
 collapsibleToggle.addEventListener ('click', (e) => {
    collapsibleToggle.classList.toggle('active');
@@ -23,7 +33,6 @@ window.addEventListener('scroll', () => {
 });
 
 /*--------Code for slider from www.webscript.info courtesy of Rizwan Khan---*/
-carousel();
 function carousel() {
 let i;
 let x = document.getElementsByClassName("mySlides");
@@ -35,8 +44,9 @@ if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block"; 
   setTimeout(carousel, 2000); 
 };
-
-/*--------------------------------------------------------*/
+carousel();
+removeLinks();
+/*-----------------------------
 
 const container = document.querySelector (".container");
 const space = document.querySelectorAll (".bookable-times .space:not(.booked)");
@@ -73,3 +83,4 @@ container.addEventListener ("click", e => {
         updateHoldCount();
     }
 });
+---------------------------*/

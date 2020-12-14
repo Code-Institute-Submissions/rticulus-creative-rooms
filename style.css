@@ -382,6 +382,9 @@ font-size: 40px;
         width: 200px;
     }
 
+    .hamburger-menu {
+        display: none;
+    }
 
     .contact .contact-img {
         width: 100px;
@@ -408,16 +411,6 @@ font-size: 40px;
         display: block;
     }
 
-    
-    .form-control {
-        min-width: 70%;
-        margin: 15px auto;
-        text-align: center;
-    }
-    .btn-secondary {
-    min-width: 50%;
-    }
-
     .lower-header .left-blocks {
         display: flex;
         justify-content: space-between;
@@ -434,6 +427,9 @@ font-size: 40px;
         min-width: 70%;
         margin: 15px auto;
         text-align: center;
+    }
+    .btn-secondary {
+    min-width: 50%;
     }
     
 }

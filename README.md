@@ -13,7 +13,7 @@
 - Credits
 - Acknowledgments
 - Support
-
+- 
 - Deployment
 
 
@@ -26,28 +26,81 @@ Everything we do begins with discovery and understanding, which gives our creati
 
 ## UX
 
-The idea driving the website operations is to engage and entertain you through the process, subconsciously educating yourself. With lots colorful flat images that invite the client to be inquisitive about the kind of people behind the projects and business. The nature of our modus operandi is CREATIVITY NATURALLY. The more natural and accessible the better...
+The idea driving the website is a simple immediate and convenientinterface with lots of colorful flat images that invite the client to immediately sourcean easy way the book or contact the program leaders. The nature of our modus operandi is CREATIVITY NATURALLY. The more natural and accessible the better...
 
-- As a user, I want to be able to book a consultancy online, so that it fits around my schedules.
+- User: *"As a user, I want to be able to book a consultancy online, so that it fits around my schedules."*
+- Dev:  We have added a form with a booking calendar to make this easy for you
 
-- As a user, I want know when the next time you are in our area , I have lots of teacher friends who would be so interested in this.
+- User: *"As a user, I want to know when the next time you are in our area , I have lots of teacher friends who would be so interested in this."*
+- Dev: In the future we add a blog and newsletter informing our users where we have been, what we have done and where we will be going next. Look out for video and photos soon.
 
-- Joe User here, I would like to be able to choose my coach, so that I know I am getting the same level of service, consistently.
+- User: *"Joe User here, I would like to be able to choose my coach, so that I know I am getting the same level of service, consistently."*
+- Dev: All our staff are talented however if you have a preference we can add the availability of staff to the Booking Form.
+
+#### 1. Strategy
+My idea was predominantly fo rreturning customers who wanted to maintain regular sessions with us. Very few distractions and a site that is soft on the eye. My approach is to set everything on one page and keep the information short but informative.  
+
+##### Project Goals:
+
+- Provide more bookings for the business
+
+- Generate interest in the services available.
+
+- Make access to direct communication with us on social media.
+
+##### Customer Goals:
+
+- Ability to book a timely consultation
+	
+- Direct communication with the the company
+
+- Value for money
+
+#### 2. Scope
+
+The site is primarily a booking site for community members and community artists:
+
+- Simple pastel colours with easy to read content
+
+- Visual hover animation
+
+- 1-page with 3x links from navigation and hamburger
+
+- A booking form for client information so they can be contacted
+
+- Location via an interactive map
+
+- Booking Form
+
+
+
+#### 4. Skeleton Surface
+
+- Wireframes: defined 1-page 4 sections, and floating form
+
+https://github.com/rticulus/creative-rooms/blob/master/assets/creativeRoomsMs2.png
+assets/creativeRoomsMs2.png
+
+- Main (Office) page,Products section, Image Gallery page, Contact page with contact form and Booking page that opens up over any page you were previously on
+- Javscript hamburger menu
+
+
+- Footer with Social Media
+
 
 ## Features
 
-- Hover over blocks: Letters and images animate as they are hovered over. Each object 'blinks' for 1.25 passing seconds, giving the website a really transition that you could play with for hours
+- Hover over blocks: Letters and image on page 1 animate as they are hovered over. Each object 'blinks' for 1.25 seconds, giving the website a little motion.
 
-- Clickable images: These clicks lead to a sign-up form or relevant documents or insights. The idea behind this was to engage more young people (and adults if they choose) in understanding the process behind the production of our daily-use electronic appliances or applications that they themselves engage with. On mobile the 'click would be responsive to touch input and pending on how many times clicked it would buzz through a 20second, 40 second or 60second old classic, like 'The A Team or Star Trek, etc.
+- Clickable images: These clicks lead to a sign-up form or relevant documents or insights. 
 
-- Interactive toggles: When on a computer or tablet the same gallery can be accessed but without the immediate reverb you get on a mobile phone. Not to worry, the game is still on because instead it would be visual and possibly audio too.
+- Click Papilion logo on any page and it returns you to the first page.
 
-- A light game: It would give you an idea of the power of electricity in our lives and advise on how to save power through its fun onboard automatic brightness detector.
+- Booking Form: Pop-Up Booking Form with basic details- name, addresss, email and a button that invokes it.
 
-- Fun outdoor activities and events: Follow our links in the built-in app. Via the messaging facility we will be able to remind you of your upcoming appointments with us.
+
 
 ## Existing Features
 
-- Feature 1 - Hover over: At the moment this is working, and the animation is smooth.
 
-- JavaScript animated menubar: Really fun animated hamburger-menu that almost raises its hands when you click it
+- Feature 1 - Hover over: 

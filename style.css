@@ -1,4 +1,4 @@
-*, p, ul {
+*, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -19,10 +19,10 @@ html {
 }
 
 .header .wavy-block {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     background: rgb(228,86,13);
-    background: linear-gradient(180deg, rgba(228,86,13,1) 0%, rgba(255,233,0,1) 100%);
+    background: lineGradient(180deg, rgba(228,86,13,1) 0%, rgba(255,233,0,1) 100%);
 }
 
 .header .wavy-block stop:nth-child(1) {
@@ -46,7 +46,7 @@ html {
     position: fixed;
     width: 100%;
     background: #C02425;
-    background: linear-gradient(184deg, rgba(207,2,2,1) 50%, rgba(214,241,4,0.8113620448179272) 100%);
+    background: lineGradient(184deg, rgba(207,2,2,1) 50%, rgba(214,241,4,0.8113620448179272) 100%);
     height: 100px;
 }
 
@@ -54,10 +54,10 @@ html {
     display: inline-block;
     list-style: none;
     padding: 0 10px;
-
 }
 
 .header .lower-header .right-blocks .menu-list li a {
+    font-size: 25px;
     text-decoration: none;
     color: #fff;
     text-shadow:0 1px #777373;
@@ -68,13 +68,7 @@ html {
     transition: all 0.5s ease-in-out;
 }
 
-.header .lower-header .left-blocks .logo a {
-    text-decoration: none;
-    font-family: 'Parisienne', cursive;
-    font-size: 50px;
-    color: #fff;
-    font-weight: 500;  
-}
+
 
 .header .lower-header .left-blocks .logo img {
     height: 80px; 
@@ -112,8 +106,8 @@ html {
     text-shadow:0 2px #000444;
     color: rgba(241,49,11,1);
     margin: 0 2px;
-    background: linear-gradient(180deg, rgba(228,86,13,1) 0%, rgba(255,233,0,1) 100%);
-    /*color: linear-gradient(180deg, rgba(241,49,11,1) 0%, rgba(255,235,0,1)100%;*/
+    background: lineGradient(180deg, rgba(228,86,13,1) 0%, rgba(255,233,0,1) 100%);
+    /*color: lineGradient(180deg, rgba(241,49,11,1) 0%, rgba(255,235,0,1)100%;*/
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: fill;
@@ -199,7 +193,7 @@ html {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 100px;
+    padding: 10px 10px 100px;
     box-sizing: border-box;
     background: #d4d8d4;
 }
@@ -210,26 +204,25 @@ font-size: 40px;
 
 .produce-groups {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .produce-groups .products {
     width: 100px;
-    margin: 10px 20px; 
+    margin: 10px 30px; 
 }
 
 .produce-groups .products img {
     width: 100px;
     }
 
-/*-----Bookings Section--
+/*-----Bookings Section---------------*/
 * {
     box-sizing: border-box;
 }
--------------*/
 
-.oversee .booking-service {
+
+/*.oversee .booking-service {
     background-color: #a2fa9a;
     color: #000;
     display: flex;
@@ -238,7 +231,7 @@ font-size: 40px;
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
+}*/
 
 .booking-container {
     margin: 20px 0;
@@ -432,17 +425,11 @@ font-size: 40px;
 
     .contact{
         flex-direction: column;
-        
+        justify-content: space-between;
     }
 
     
 }
-
-
-
-/*--------sub-header--------*/
-    
-
 
 /*---------footer and social section-------*/
 
@@ -475,6 +462,14 @@ footer {
     font-size: 24px;
 }
 
+.no-padding{
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
 .social-links {
 padding: 2px;
 margin-top: 30px;
@@ -487,26 +482,6 @@ font-size: 20px;
 .social-links-block {
 text-align: center;
 }
-
-/*.fa {
-font-size: 125%;
-}
-
-.fa-youtube-play {
-    color: red;
-}
-
-.fa-linkedin-square {
-    color: #283e4a;
-}
-
-.fa-facebook-square {
-    color: #4267b2;
-}
-
-.fa-instagram {
-    color: #9f36b7;
-}----------*/
 
 /*-----------Booking Room -------*/
 
@@ -576,12 +551,6 @@ font-size: 125%;
     background-color: rgb(30, 173, 1);
     margin: 50px auto;
     color: #fff;
-    }
-.btn-secondary {
-    margin-top: 20px;
-    background-color: #ff9d00;
-    border-color: #ff9d00;
-    width: 30%;
     }
 /*---------------------------------------------------------- Modal */
 

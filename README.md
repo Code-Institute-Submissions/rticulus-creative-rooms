@@ -78,14 +78,13 @@ The site is primarily a booking site for community members and community artists
 
 - Wireframes: defined 1-page 4 sections, and floating form
 
-https://github.com/rticulus/creative-rooms/blob/master/assets/creativeRoomsMs2.png
-assets/creativeRoomsMs2.png
+- First and Home page is Office, then Products section with booking button
 
-- Main (Office) page,Products section, Image Gallery page, Contact page with contact form and Booking page that opens up over any page you were previously on
 - Javscript hamburger menu
 
+- Footer with Social Media links
 
-- Footer with Social Media
+![Image](https://github.com/rticulus/creative-rooms/blob/master/assets/creativeRoomsMs2.png)
 
 
 ## Features
@@ -98,9 +97,81 @@ assets/creativeRoomsMs2.png
 
 - Booking Form: Pop-Up Booking Form with basic details- name, addresss, email and a button that invokes it.
 
+- Carousel: 3 short testimonials on a loop
 
 
 ## Existing Features
 
-
 - Feature 1 - Hover over: 
+- Feature 2 - Papilion logo returns to page one.
+- Feature 3 - Booking Form
+- Feature 4 - Hamburger menu
+- Feature 5 - Testimonials
+
+
+## Features left to implement
+
+Wishlist of ideas to be implemented at a future date:
+
+* Clickable images with external pages 
+
+* Online FAQs and downloadable Resource packs
+
+
+## __Technology Used__
+
+Below are tools used to devise this project:
+
+* Markdown
+    * For the ReadMe file
+* HTML 5
+    * For the base information and structure of the webpages
+* CSS 3
+    * For the styling and beauty of the webpages
+* Javascript 
+    * For the carousel and hamburger menu animation    
+* Bootstrap 4 
+    * For the booking Form
+
+
+## Testing
+
+* The first few commits were big structural dumps, testing the skeleton structure and then the skeleton with placeholders, all worked well. 
+
+1. Booking form:
+    1. Go to the "Book Us Here" button on any page or the "Book Now" page (which is a pop-up):
+    2. Try to submit the empty form and an error message about the required fields appears
+    3. Try to submit the form without an email address and an error message appears
+    4. Try to submit the form without a Booking Date and you will return to your original page, informing Papilion you required consultation 	 with an interest to book.
+    5. Try to submit the form with all inputs valid and you have completed submission and will be returned to your original page
+
+
+### Code validity
+
+> HTML 	- [W3C](https://validator.w3.org/) - Markup Validation
+>
+> CSS 	- [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+>
+> JSHint- [JSHint](https://jshint.com/) JavaScript validation
+
+Ran code. HTML coded SVG didnt pass the testing stage and some of the naming of the code conflicted. 
+
+
+### Credits
+
+Selection of images taken from free-to-use stock image sites:
+
+- Home page images are Papilion's own. 
+
+- Services: [FlatIcons](https://www.flaticon.com/free-icon/)
+
+
+### Acknowledgments
+
+Thanks to Rizwan Khanan for support with the code for carousel and attempt with the calendar.
+
+### Support
+
+For any issue or assistance, please contact rtawoshe@gmail.com
+
+
